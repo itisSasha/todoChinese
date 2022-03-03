@@ -19,10 +19,10 @@ const onClickAdd = () => {
     
     // 完了ボタンと削除ボタンを生成
     const comButton = document.createElement("button");
-    comButton.innerText = "完了";
+    comButton.innerText = "完成";
 
     const delButton = document.createElement("button");
-    delButton.innerText = "削除";
+    delButton.innerText = "删除";
 
     // 完了ボタンが押された時に、タスクが完了したTODOに格納される
     comButton.addEventListener("click", () => {
@@ -39,7 +39,7 @@ const onClickAdd = () => {
         ul.appendChild(li);
         div.appendChild(ul);
         const backButton = document.createElement("button");
-        backButton.innerText = "戻す";
+        backButton.innerText = "返回";
         // 戻すボタンが押された時に、タスクを未完了のTODOに戻す
         backButton.addEventListener("click", () => {
             const parent = backButton.parentNode;
@@ -55,10 +55,10 @@ const onClickAdd = () => {
                
             // 完了ボタンと削除ボタンを生成
             const comButton = document.createElement("button");
-            comButton.innerText = "完了";
+            comButton.innerText = "完成";
 
             const delButton = document.createElement("button");
-            delButton.innerText = "削除";
+            delButton.innerText = "删除";
 
             // 完了ボタンが押された時に、タスクが完了したTODOに格納される
             comButton.addEventListener("click", () => {
@@ -75,7 +75,7 @@ const onClickAdd = () => {
                 ul.appendChild(li);
                 div.appendChild(ul);
                 const backButton = document.createElement("button");
-                backButton.innerText = "戻す";
+                backButton.innerText = "返回";
                 // 戻すボタンが押された時に、タスクを未完了のTODOに戻す
                 backButton.addEventListener("click", () => {
                     const parent = backButton.parentNode;
@@ -90,10 +90,10 @@ const onClickAdd = () => {
                     document.getElementById("incomplete").appendChild(div);
                     // 完了ボタンと削除ボタンを生成
                     const comButton = document.createElement("button");
-                    comButton.innerText = "完了";
+                    comButton.innerText = "完成";
 
                     const delButton = document.createElement("button");
-                    delButton.innerText = "削除";
+                    delButton.innerText = "删除";
 
             // 完了ボタンが押された時に、タスクが完了したTODOに格納される
             comButton.addEventListener("click", () => {
@@ -110,7 +110,7 @@ const onClickAdd = () => {
                 ul.appendChild(li);
                 div.appendChild(ul);
                 const backButton = document.createElement("button");
-                backButton.innerText = "戻す";
+                backButton.innerText = "返回";
                 // 戻すボタンが押された時に、タスクを未完了のTODOに戻す
                 backButton.addEventListener("click", () => {
                     const parent = backButton.parentNode;
@@ -126,10 +126,10 @@ const onClickAdd = () => {
                     
                     // 完了ボタンと削除ボタンを生成
                     const comButton = document.createElement("button");
-                    comButton.innerText = "完了";
+                    comButton.innerText = "完成";
 
                     const delButton = document.createElement("button");
-                    delButton.innerText = "削除";
+                    delButton.innerText = "删除";
 
                     // 完了ボタンが押された時に、タスクが完了したTODOに格納される
                     comButton.addEventListener("click", () => {
@@ -146,7 +146,7 @@ const onClickAdd = () => {
                         ul.appendChild(li);
                         div.appendChild(ul);
                         const backButton = document.createElement("button");
-                        backButton.innerText = "戻す";
+                        backButton.innerText = "返回";
                         // 戻すボタンが押された時に、タスクを未完了のTODOに戻す
                         backButton.addEventListener("click", () => {
                             const parent = backButton.parentNode;
